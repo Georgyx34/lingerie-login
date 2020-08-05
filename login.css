@@ -1,0 +1,95 @@
+body
+{
+	color: orange;
+	background: url(../images/modern-dark-texture-background_1035-11632.jpg);
+    background-size: 20px;
+
+}
+
+.login
+{
+	top: calc(20% - 10px);
+	left: calc(50% - 50px);
+    position: absolute;
+	float: right;
+	width: 390px;
+	padding: 10px;
+	font-family: cursive;
+	
+
+
+} 
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid greenyellow;
+	border-radius: 10px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+
+}
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	color: #fff;
+	border: 1px solid greenyellow;
+	border-radius: 10px;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background:skyblue;
+	border: 1px solid skyblue;
+	border-radius:50pxpx;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;
+	font-family:cursive;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+.login a
+{
+color: forestgreen;
+}
+.login input[type=button]:hover{
+	color: purple;
+}
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
